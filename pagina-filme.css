@@ -122,7 +122,11 @@ footer {
     text-align: center;
 }
 
-.container {
+.container-filmes {
+    margin: 100px 60px 50px 60px;
+}
+
+.container-elenco {
     margin: 100px 60px 50px 60px;
 }
 
