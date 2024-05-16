@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Tela de login</title>
+    <style>
+        .fundopreto{
+            height: 750px;
+            margin-top: 1%;
+            background-image:url('./fundo.png');
+
+        }
+        body{
+            font-family:"Inter", sans-serif;
+            background-color: black;
+
+
+        }
+        .Tela-login{
+            background-color: rgba(0,0,0, 0.7);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 80px;
+            border-radius: 10px;
+            color: white;
+    
+        }
+        input{
+            padding: 20px;
+            border-radius: 10px;
+            outline: none;
+            width: 300px;
+        }
+        .img{
+            height: 10;
+        }
+        button{
+            background: linear-gradient(to right, #1A113D,#221548,#334BA0);
+            border: none;
+            color:white;
+            padding: 15px;
+            width: 92%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-color:linear-gradient(to left, #1A113D,#221548,#334BA0);
+        }
+        h1{
+            font-size: 15pt;
+        }
+        .h2{
+            
+        }
+        h3{
+            font-size: 6pt;
+        }
+        h4{
+            font-size: 6pt;
+        }
+        .ajuda{
+            
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header><img class="img" src="/home/sancho/Downloads/imagens/logo-vision.png" alt=""></header>
+    <div class="fundopreto">
+        
+    </div>
+    <div class="Tela-login" id="q2">
+        <h1>Login</h1>
+        <br>
+        <input type="text" placeholder="Insira seu email ou telefone">
+        <br><br>
+        <input type="password" placeholder="Senha">
+        <br><br>
+        <button>Entrar</button>
+        <h2>Criar conta</h2>
+        <h2 class="ajuda">Ajuda?</h2>
+        <h4>Esta página é protegida pelo Google reCAPTCHA para garantir você não é um robô. Saiba mais.</h4>
+    </div>
+    <div class="fundo" id="q3">
+
+    </div>
+</body>
+</html>
