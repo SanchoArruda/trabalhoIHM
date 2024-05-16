@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+.oppenheimer-background {
+    background-image: url(Imagens/filme.png);
+}
+
+.it-background {
+    background-image: url(Imagens/fundo-it-0.png), url(Imagens/fundo-it-1.png);
+}
+
+header {
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+.logo {
+    height: 55px;
+    width: 155px;
+}
+
+nav {
+    color: white;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.abas {
+    margin-right: 100px;
+}
+
+.abas:hover {
+    font-size: 1.4em;
+}
+
+.pesquisa {
+    background-color: black;
+    color: white;
+    margin-left: 100px;
+    height: 46px;
+    width: 253px;
+    border: none;
+    font-size: 1em;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+.alinhamento-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.filmeinfo {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 450px;
+    font-size: 1em;
+}
+
+.estrelas {
+    margin: 0px 30px;
+}
+
+.botoes-pagina-filme {
+    display: flex;
+    margin-top: 14px;
+}
+
+.botao-pagina-filme {
+    display: flex;
+    font-size: 1em;
+    height: 40px;
+    width: 108px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.mostrarmais {
+    background-color: #1A113D;
+    color: white;
+}
+
+.mostrarmais:hover {
+    background-color: #491cda;
+}
+
+.play {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.play:hover {
+    background-color: rgb(153, 144, 144);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.recomendados {
+    margin: 100px 60px 50px 60px;
+}
+
+#tamanhofonte {
+    font-size: 2em;
+}
+
+.container {
+    overflow-x: hidden; /* permite a rolagem horizontal */
+}
+
+.carrossel {
+    display: inline-flex;
+}
+
+.filme {
+    margin-right: 40px;
+    text-align: center;
+}
+
+.filme img {
+    width: auto;
+    height: 288px;
+    border-radius: 8px;
+}
