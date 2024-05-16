@@ -2,17 +2,20 @@ body {
     margin: 0;
     font-family: "Inter", sans-serif;
     color: white;
-    background-size: 100%;
-    background-repeat: no-repeat;
     background-color: black;
 }
 
 .oppenheimer-background {
     background-image: url(Imagens/filme.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
 .it-background {
     background-image: url(Imagens/fundo-it-0.png), url(Imagens/fundo-it-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
 }
 
 header {
@@ -117,7 +120,7 @@ h1 {
 footer {
     bottom: 0;
     width: 100%;
-    background-color: black;
+    background-color: transparent;
     padding: 40px 0;
     text-align: center;
 }
@@ -127,7 +130,7 @@ footer {
 }
 
 .container-elenco {
-    margin: 100px 60px 50px 60px;
+    margin: 250px 60px 100px 60px;
 }
 
 #tamanhofonte {
@@ -135,15 +138,18 @@ footer {
 }
 
 .exibicao-horizontal-oculta {
-    overflow-x: hidden; /* permite a rolagem horizontal */
+    overflow-x: hidden;
+    display: flex;
 }
 
 .carrossel {
     display: inline-flex;
+    margin: auto;
 }
 
 .itens {
-    margin-right: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
     text-align: center;
 }
 
