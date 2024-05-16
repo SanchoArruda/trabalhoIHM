@@ -138,12 +138,12 @@ footer {
     display: inline-flex;
 }
 
-.filme {
+.itens {
     margin-right: 40px;
     text-align: center;
 }
 
-.filme img {
+.itens img {
     width: auto;
     height: 288px;
     border-radius: 8px;
