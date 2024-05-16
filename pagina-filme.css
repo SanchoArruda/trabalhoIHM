@@ -18,19 +18,9 @@ body {
     background-position: center top, center bottom;
 }
 
-header {
-    padding: 20px 20px 20px 20px;
-    background-color: rgb(128, 128, 128, 0.3);
-}
-
 .logo {
     height: 55px;
     width: 155px;
-}
-
-nav {
-    color: white;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 a {
@@ -38,18 +28,9 @@ a {
     color: white;
 }
 
-.abas {
-    margin-right: 100px;
-}
-
-.abas:hover {
-    font-size: 1.4em;
-}
-
 .pesquisa {
     background-color: black;
     color: white;
-    margin-left: 100px;
     height: 46px;
     width: 253px;
     border: none;
@@ -62,19 +43,34 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 80px;
+    background-color: rgb(128, 128, 128, 0.3);
 }
 
-h1 {
-    font-weight: bold;
-    font-size: 4em;
-    margin-top: 2px;
-    margin-bottom: 2px;
+.caixa-pesquisa-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .filmeinfo {
     margin-top: 100px;
     margin-left: 50px;
     width: 450px;
+    font-size: 1em;
+}
+
+.filmeinfo h1 {
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.filmesinopse {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 700px;
     font-size: 1em;
 }
 
@@ -130,7 +126,7 @@ footer {
 }
 
 .container-elenco {
-    margin: 250px 60px 100px 60px;
+    margin: 300px 60px 100px 60px;
 }
 
 #tamanhofonte {
