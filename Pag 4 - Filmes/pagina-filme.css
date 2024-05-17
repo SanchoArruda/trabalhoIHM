@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.oppenheimer-background {
+    background-image: url(Imagens/filme.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.it-background {
+    background-image: url(Imagens/fundo-it-0.png), url(Imagens/fundo-it-1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center top, center bottom;
+}
+
+.logo {
+    height: 55px;
+    width: 155px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.pesquisa {
+    background-color: black;
+    color: white;
+    height: 46px;
+    width: 253px;
+    border: none;
+    font-size: 1em;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+
+.alinhamento-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: rgb(128, 128, 128, 0.3);
+}
+
+.caixa-pesquisa-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filmeinfo {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 450px;
+    font-size: 1em;
+}
+
+.filmeinfo h1 {
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.filmesinopse {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 700px;
+    font-size: 1em;
+}
+
+.estrelas {
+    margin: 0px 30px;
+}
+
+.botoes-pagina-filme {
+    display: flex;
+    margin-top: 14px;
+}
+
+.botao-pagina-filme {
+    display: flex;
+    font-size: 1em;
+    height: 40px;
+    width: 108px;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.mostrarmais {
+    background-color: #1A113D;
+    color: white;
+}
+
+.mostrarmais:hover {
+    background-color: #491cda;
+}
+
+.play {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+}
+
+.play:hover {
+    background-color: rgb(153, 144, 144);
+}
+
+footer {
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container-filmes {
+    margin: 100px 60px 50px 60px;
+}
+
+.container-elenco {
+    margin: 300px 60px 100px 60px;
+}
+
+#tamanhofonte {
+    font-size: 2em;
+}
+
+.exibicao-horizontal-oculta {
+    overflow-x: hidden;
+    display: flex;
+}
+
+.carrossel {
+    display: inline-flex;
+    margin: auto;
+}
+
+.itens {
+    margin-right: 20px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+.itens img {
+    width: auto;
+    height: 288px;
+    border-radius: 8px;
+}
