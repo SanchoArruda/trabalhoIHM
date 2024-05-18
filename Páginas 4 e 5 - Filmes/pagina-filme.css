@@ -173,9 +173,13 @@ footer {
     font-size: 2em;
 }
 
-.carrossel {
+.exibicao-horizontal-oculta {
     overflow-x: hidden;
     display: flex;
+}
+
+.carrossel {
+    display: inline-flex;
     margin: auto;
 }
 
