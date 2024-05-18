@@ -53,6 +53,10 @@ a {
     align-items: center;
 }
 
+.caixa-pesquisa-perfil img {
+    cursor: pointer;
+}
+
 .filmeinfo {
     margin-top: 100px;
     margin-left: 50px;
@@ -108,6 +112,7 @@ a {
     justify-content: space-around;
     align-items: center;
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .botoes-pagina2-filme {
@@ -122,6 +127,7 @@ a {
     border-color: #462FA3;
     background-color: black;
     margin: 0px 15px;
+    cursor: pointer;
 }
 
 .botao-pagina2-filme:hover {
