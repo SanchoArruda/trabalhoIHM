@@ -78,6 +78,22 @@ a {
     margin: 0px 30px;
 }
 
+.botao-trailer {
+    display: flex;
+    font-size: 1em;
+    background-color: transparent;
+    color: white;
+    align-items: center;
+    height: 42px;
+    width: 110px;
+    border-radius: 8px;
+    border-color: white;
+    justify-content: space-around;
+    position: absolute;
+    right: 90px;
+    cursor: pointer;
+}
+
 .botoes-pagina-filme {
     display: flex;
     margin-top: 14px;
@@ -94,7 +110,23 @@ a {
     margin-right: 40px;
 }
 
+.botoes-pagina2-filme {
+    display: flex;
+    margin-top: 40px;
+}
 
+.botao-pagina2-filme {
+    height: 46px;
+    width: 78px;
+    border-radius: 8px;
+    border-color: #462FA3;
+    background-color: black;
+    margin: 0px 15px;
+}
+
+.botao-pagina2-filme:hover {
+    background-color: gray;
+}
 
 .mostrarmais {
     background-color: #1A113D;
