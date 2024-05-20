@@ -62,3 +62,39 @@ h1#captcha{
     height: 55px;
     width: 155px;
 }
+/*PAGINA DO ASSISTINDO*/
+
+.alinhamento-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 80px;
+    background-color: black;
+}
+.caixa-pesquisa-perfil {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caixa-pesquisa-perfil img {
+    cursor: pointer;
+}
+.pesquisa{
+    background-color: rgb(18, 18, 18);
+    color: rgb(255, 255, 255);
+    width: 255px;
+    border: none;
+    font-size: 1em;
+    padding-left: 20px;
+    border-radius: 8px;
+}
+h1{
+    margin-left: 360px;
+}
+.filme{   /*alinhei a foto do filme */
+    display: block;
+    margin: 0 auto;
+}
+#minhacaixa{
+    color: white;
+}
