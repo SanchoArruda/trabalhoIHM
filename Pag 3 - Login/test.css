@@ -1,0 +1,64 @@
+body{
+    font-family: inter;
+    color: white;
+    background-color: black;
+}
+a{
+    color: rgb(255, 255, 255, 0.5);
+}
+.tela-login{
+    background-color: rgba(0,0,0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;  /* tamanho da caixa*/
+    border-radius: 10px;
+    color: white;
+}
+button{
+    background: linear-gradient(to right, #1A113D,#221548,#334BA0);
+    border: none;
+    color:white;
+    padding: 24px;
+    width: 105%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+.tirar_firula{
+    text-decoration: none;
+    color: white;
+}
+
+input{
+    padding: 24px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+}
+h1#login{
+    text-align: left;
+    font-size: 20px;
+}
+h1#captcha{
+    text-align: center;
+    font-size: 12px;
+    margin-top: 80px;
+    color: rgb(255, 255, 255, 0.5);
+}
+.imagem_fundo{
+    width: 100%;
+    height: 800px;
+    margin-top: 1%;
+}
+.mudar_ajuda{
+    padding-left: 200px;
+}
+
+.logo {
+    margin-top: 15px;
+    padding-left: 72px;
+    height: 55px;
+    width: 155px;
+}
