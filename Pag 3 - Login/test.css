@@ -4,7 +4,7 @@ body{
     background-color: black;
 }
 a{
-    color: rgb(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255, 0.5);;
 }
 .tela-login{
     background-color: rgba(0,0,0, 0.7);
@@ -16,6 +16,7 @@ a{
     border-radius: 10px;
     color: white;
 }
+
 button{
     background: linear-gradient(to right, #1A113D,#221548,#334BA0);
     border: none;
@@ -25,6 +26,7 @@ button{
     border-radius: 10px;
     cursor: pointer;
     font-size: 17px;
+    
 }
 .tirar_firula{
     text-decoration: none;
@@ -36,7 +38,10 @@ input{
     border-radius: 10px;
     outline: none;
     width: 90%;
+    color: black!important;
+    
 }
+
 h1#login{
     text-align: left;
     font-size: 20px;
@@ -75,6 +80,7 @@ h1#captcha{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 .caixa-pesquisa-perfil img {
     cursor: pointer;
@@ -87,14 +93,21 @@ h1#captcha{
     font-size: 1em;
     padding-left: 20px;
     border-radius: 8px;
+    color: white!important;
 }
-h1{
+h1#it{
     margin-left: 360px;
 }
 .filme{   /*alinhei a foto do filme */
     display: block;
     margin: 0 auto;
 }
-#minhacaixa{
-    color: white;
+
+.movendo_return{
+    position: relative;
+    top: -50px;
+    padding-left: 1420px;
+    font-size: 15px;
+    text-decoration: none;
+
 }
