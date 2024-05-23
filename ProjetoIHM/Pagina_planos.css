@@ -1,0 +1,125 @@
+
+body{
+    background-color: #000;
+}
+
+.Plano-estudante {
+   background-color: #fff;
+   width: 300px;
+   border-radius: 10px;
+   padding-left: 30px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   padding-top: 2px;
+   font-family: "Inter", sans-serif;
+   display: inline-block;
+   margin-top: 1%;
+   margin-left: 250px;
+  
+   
+}
+
+.Plano-padrao{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    font-family: "Inter", sans-serif;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 160px;
+   
+   
+}
+.Plano-premium{
+    background-color: #fff;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+    font-family: "Inter", sans-serif;
+    display: inline-block;
+    margin-top: 1%;
+    margin-left: 170px;
+   
+}
+
+
+
+.h1-Plano{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 5px;
+    font-size: 30px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background: linear-gradient(to top, #452DA3, #1A113D);
+    border-radius: 10px;
+    width: 170px;
+    margin-left: 55px;
+   
+ 
+  
+}
+.alto{
+    text-transform: uppercase;
+}
+
+.Titulo-principal{
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: 25px;
+    margin-top: 0%;
+    padding-bottom: 20px;
+}
+
+.paragrafo-abaixo-plano{
+    color: #fff;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
+     margin-top: 0px;
+
+}
+
+.paragrafo{
+    
+    font-weight: 100;
+}
+
+.Botao-iniciar{
+    text-align: center;
+    margin-left: 42%;
+    margin-top: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 10px;
+    border: none;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    background: linear-gradient(to top, #452DA3, #1A113D);
+    color: #fff;
+
+}
+
+.imagem-logo{
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 20px;
+    
+    
+}
+
+p{
+    font-weight: bold;
+}
+
